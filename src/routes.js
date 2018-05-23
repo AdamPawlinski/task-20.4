@@ -3,7 +3,7 @@ import {Route, IndexRoute} from 'react-router';
 import Navigation from './presentational/navigation.component';
 import Home from './presentational/home.component';
 import NotFound from './presentational/not-found.component';
-import Contact from './presentational/contact.component'; 
+import Contact from './presentational/contact.component';
 
 export default (
   <Route path='/' component={Navigation}>
